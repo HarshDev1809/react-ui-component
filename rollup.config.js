@@ -2,6 +2,7 @@ import babel from 'rollup-plugin-babel';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
+import postcss from 'rollup-plugin-postcss';
 
 export default {
     input: 'src/index.js',
@@ -26,7 +27,11 @@ export default {
         exclude: 'node_modules/**',
         presets: ['@babel/preset-react']
       }),
-      commonjs()
+      commonjs(),
+      postcss({
+        modules: true, // Enable CSS Modules
+        extensions: ['.css'], // Files to process
+      })
     ]
   };
   
