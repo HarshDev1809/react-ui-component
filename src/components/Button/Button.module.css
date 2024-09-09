@@ -1,13 +1,80 @@
-.btn{
-    height: 8vh;
-    width: 10vw;
-    border-radius: 7px;
-    border: none;
-    font-size: 1.1em;
+.default{
+    background-color: #f0f3f4;
+    color: black
+}
+
+.default:hover{
+    color: black;
+    background-color: #7b7d7d;
+}
+
+/* dual----------------------------------------------------------------------------------------------------------------------- */
+
+.purple-dual{
     background-color: #6d60cc ;
     transition: background-color 0.3s;
 }
 
-.btn:hover{
+.purple-dual:hover{
     background-color: #5563c1;
+}
+
+.purple-dual-2{
+    background-color: #e8daef;
+    transition: background-color 0.3s;
+}
+
+.purple-dual-2:hover{
+    background-color: #9b59b6 ;
+}
+
+/* Static------------------------------------------------------------------ */
+.red-static{
+    background-color: #ff1700;
+}
+
+.black-static{
+    background-color: black;
+    color: white;
+}
+
+.azure-static{
+    background-color: azure;
+    color: black
+}
+
+.baby-blue-static{
+    background-color: #89CFF0;
+    color: black
+}
+
+.periwinkle-static{
+    background-color: #CCCCFF;
+}
+
+.almond-static{
+    background-color: #EADDCA;
+}
+
+.nude-static{
+    background-color: #F2D2BD;
+}
+
+.charcoal-static{
+    background-color: #36454F;
+    color: #E5E4E2;
+}
+
+/* Gradient-------------------------------------------------------- */
+
+.red-gradient-1{
+    background: linear-gradient(135deg, #e6b0aa, #922b21);
+}
+
+.red-gradient-2{
+    background: linear-gradient(135deg,#f1948a,#cb4335)
+}
+
+.purple-gradient{
+    background: linear-gradient(135deg, #bb8fce, #884ea0);
 }
