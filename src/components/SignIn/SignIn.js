@@ -64,9 +64,9 @@ function SignIn(props) {
                 onClick={togglePasswordVisibility}
               >
                 {showPassword ? (
-                  <span class="material-symbols-outlined">visibility</span>
+                  <span className="material-symbols-outlined">visibility</span>
                 ) : (
-                  <span class="material-symbols-outlined">visibility_off</span>
+                  <span className="material-symbols-outlined">visibility_off</span>
                 )}
               </button>
             </div>

@@ -1,5 +1,13 @@
 .btn{
-    height: 10vh;
+    height: 8vh;
     width: 10vw;
-    background-color: blue;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.1em;
+    background-color: #6d60cc ;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color: #5563c1;
 }
