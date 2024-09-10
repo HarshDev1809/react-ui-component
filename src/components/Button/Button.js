@@ -34,7 +34,7 @@ function Button({
       className={`${buttonClass} ${shadow? commonStyle.shadow : ""}`}
       style={finalStyle}
       onClick={
-        onclick
+        onClick
           ? onClick
           : () => {
               console.log("no function");
